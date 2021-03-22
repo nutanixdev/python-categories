@@ -1,0 +1,43 @@
+{
+	"categories": [
+		{
+			"keys": [
+				"OSName",
+				"OSVersion",
+				"Status"
+			],
+			"values": [
+				{
+					"key": "OSName",
+					"value": "Windows",
+					"description": "VMs running a Windows OS variant"
+				},
+				{
+					"key": "OSName",
+					"value": "Linux",
+					"description": "VMs running an Linux OS distribution"
+				},
+				{
+					"key": "OSVersion",
+					"value": "2012",
+					"description": "VMs running Windows 2012"
+				},
+				{
+					"key": "OSVersion",
+					"value": "CentOS 8",
+					"description": "VMs running CentOS Linux 8"
+				},
+				{
+					"key": "Status",
+					"value": "Dev",
+					"description": "VMs running in the development environment"
+				},
+				{
+					"key": "Status",
+					"value": "Production",
+					"description": "VMs running in the production environment"
+				}
+			]
+		}
+	]
+}
