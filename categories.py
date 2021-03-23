@@ -37,7 +37,7 @@ def main():
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
     # setup a variable that can be used to store our JSON configuration
-    raw_json = []
+    raw_json = {}
 
     # grab and decode the category details from the included JSON file
     with open("./categories.json", "r") as f:
